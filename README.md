@@ -1,6 +1,8 @@
 This project is a **Customer Service Messaging Application** that allows customers to send messages and agents to respond to them. The system includes features like locking messages for agents, viewing open client messages, and filtering previously responded messages.
 
 ## Features
+
+### **1. Basic Features**
 - Customers can send messages via a user-friendly interface.
 - Agents can:
   - Lock messages to prevent other agents from responding.
@@ -10,6 +12,8 @@ This project is a **Customer Service Messaging Application** that allows custome
   - multiple agent login at same time.
 - Messages are stored in a MongoDB database.
 
+### **2. Additional Features**
+- A scheme to help agents divide work amongst themselves, and to prevent multiple agents working on the same message at once via locking system.
 ---
 
 ### **Setup Instructions to Run the Solution**
